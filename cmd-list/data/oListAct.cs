@@ -75,7 +75,7 @@ namespace orez.olist.data {
 		/// Set values.
 		/// </summary>
 		/// <param name="l">List.</param>
-		/// <param name="a">[set],[bgn],[end].</param>
+		/// <param name="a">[val],[bgn],[end].</param>
 		/// <returns>Set list.</returns>
 		public static IList<string> Set(List<string> l, string[] a) {
 			IList<string> set = List(a, 0, Sep);
