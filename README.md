@@ -180,8 +180,3 @@ Manage a list of strings in Windows Console.
 :: sort your friends' birthdays by date (yyyy.mm.dd : name)
 > type bday.txt | olist sort > bday.txt
 ```
-
-
-## license
-
-Do you have a Poké ball? That's enough!
