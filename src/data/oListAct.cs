@@ -29,7 +29,7 @@ namespace orez.olist.data {
 		/// Points to list functions.
 		/// </summary>
 		public static Dictionary<string, oFn> Fn = new Dictionary<string, oFn>() {
-			["get"] = Get, ["set"] = Set, ["add"] = Add, ["remove"] = Remove, ["reverse"] = Reverse,
+			["size"] = Size, ["get"] = Get, ["set"] = Set, ["add"] = Add, ["remove"] = Remove, ["reverse"] = Reverse,
 			["find"] = Find, ["replace"] = Replace, ["sort"] = Sort
 		};
 
@@ -58,6 +58,16 @@ namespace orez.olist.data {
 			if (v.Length > 0) v.Remove(v.Length - s.Length, s.Length);
 			return v.ToString();
 		}
+
+        /// <summary>
+        /// Get size of list.
+        /// </summary>
+        /// <param name="l">List.</param>
+        /// <param name="a">.</param>
+        /// <returns>List size.</returns>
+        public static IList<string> Size(IList<string> l, string[] a) {
+            return new string[] { l.Count.ToString() };
+        }
 
 		/// <summary>
 		/// Get values.
