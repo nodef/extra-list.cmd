@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
-using static orez.olist.data.oVal;
+using static App.data.Val;
 
-namespace orez.olist.data {
-	class oListAct {
+namespace App.data {
+	class ListAct {
 
 		// type
 		/// <summary>

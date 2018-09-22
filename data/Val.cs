@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace orez.olist.data {
-	class oVal {
+namespace App.data {
+	class Val {
 
 		// static method
 		/// <summary>

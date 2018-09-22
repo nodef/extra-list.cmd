@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 
-namespace orez.olist {
-	class oParams {
+namespace App {
+	class Params {
 
 		// data
 		/// <summary>
@@ -35,7 +35,7 @@ namespace orez.olist {
 		/// Get parameters from input arguments.
 		/// </summary>
 		/// <param name="a">Input arguments.</param>
-		public oParams(string[] a) {
+		public Params(string[] a) {
 			for (int i = 0; i < a.Length; i++) {
 				switch (a[i]) {
 					case "-i":
