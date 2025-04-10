@@ -182,3 +182,4 @@ Manage a list of strings in Windows Console.
 
 
 [![cmdf](https://i.imgur.com/awzNy3a.jpg)](https://cmdf.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/extra-list.cmd)
